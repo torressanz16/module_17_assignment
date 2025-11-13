@@ -1,0 +1,33 @@
+'''FINDINGS
+
+After analysing the data with 4 different Machine Learning models commonly used 
+to perform data classification, it was found the most relevant factors that 
+affect success are: Job and Credit in Default. 
+
+For Job column, it was found that the campaigns were more effective among people
+with these jobs/occupations: blue-collar, retired, and student
+
+For the Default column, campaigns were more effective in people who did not have
+credit in default.
+
+Now, models used for this analysis, got prediction scores above a baseline 
+calculated based on the proportion of the different categories, which in our case
+those would be 'Yes' or No' (accepted).
+
+Finally, in order to identify the most relevant characteristics that affect success
+we utilized an encoding method that allowed us to turn each option within each column
+into another column, in order to be able to calculate the level of relevance
+ it has for the final output, based on its frequency of occurrence.
+
+ Next Steps and Recommendations:
+
+ In order to apply some filtering to the groups of people identified by their 
+ job and credit default status, some more information be useful, like salary range,
+ type of studies (e.,g., University, Highschool, etc), credit score, 
+ number of credits, etc.
+
+ As recommendation, using more thoughful categories, that are better defined 
+ on clear differences, will improve a lot the inputs to the system and therefore
+ the accuracy of the model.
+
+'''
